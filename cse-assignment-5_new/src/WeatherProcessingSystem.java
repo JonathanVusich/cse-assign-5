@@ -37,11 +37,11 @@ public class WeatherProcessingSystem {
 	    				break;
 	    			} else {
 	    				main.printInfoForDay(userInput);
-	    				break;
 	    			}
 	    		}
 	    		break;
 	    	case 2:
+	    		running = true;
 	    		while (running) {
 	    			userChoice = ui.selectMaxMin("averages");
 	    			switch (userChoice) {

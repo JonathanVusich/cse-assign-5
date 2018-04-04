@@ -32,6 +32,7 @@ public class UserInterface {
 				}
 			} catch (InputMismatchException ime) {
 				System.out.println("Error! Invalid input!\n");
+				sc.next();
 			}
 		}
 	}
@@ -60,7 +61,7 @@ public class UserInterface {
 					return finalDate;
 				}
 			} catch (NumberFormatException pe) {
-				System.out.println("Error! Not a valid date!\n");
+				System.out.println("Error! Not a valid date!");
 			}
 		}
 	}
@@ -89,6 +90,7 @@ public class UserInterface {
 				}
 			} catch (InputMismatchException ime) {
 				System.out.println("Error! Invalid input!\n");
+				sc.next();
 			}
 			
 		}
@@ -114,6 +116,7 @@ public class UserInterface {
 				}
 			} catch (InputMismatchException ime) {
 				System.out.println("Error! Invalid input!\n");
+				sc.next();
 			}
 		}
 	}
